@@ -4,6 +4,7 @@ body{
     padding: 0px;
 
 }
+
 .container{
     width: 80%;
     margin:auto; 
@@ -472,7 +473,7 @@ footer{
   .inline-link:focus,
   #footer-nav-links .floating-link:focus,
   #footer-nav-links .floating-link:hover {
-    color: #e01e5a;
+    color: #32A0C2;
     text-decoration: underline;
   }
   
@@ -595,6 +596,87 @@ footer{
       text-align: right;
     }
   }
+
+
+
+
+  .basesection{
+    background-color: rgb(70, 112, 70);
+    
+  }
+
+  .flexbox-container{
+    display:flex;
+    flex-direction: row;
+    position: center;
+  
+  
+    
+
+  }
+  .flexbox-item{
+    width: 200px;
+    margin: 10px;
+    border: 3px solid #333;
+    background-color: whitesmoke;
+
+  }
+  .flexbox-item-1{
+    min-height: 300px;
+    
+  }
+  .flexbox-item-2{
+    min-height: 200px;
+ 
+  }
+  .flexbox-item-3{
+    min-height: 200px;
+ 
+  }
+  .flexbox-item-4{
+    min-height: 200px;
+ 
+  }
+
+  #workarea{
+    background-color: teal;
+  }
+ 
+
+
+
+
+
+
+
+
+
+
+
+  /*.parent{
+    display: flex;
+    justify-content: center;
+}
+.child{
+    float: left;
+    width: 45%;
+    margin: 20px;
+}
+*{
+    box-sizing: border-box;
+    justify-content: center;
+}
+#childa{
+    width: 30%;
+}
+#childb{
+    width: 30%;
+}
+ h2{
+    color: #3a343a;
+    font-size: 30px;
+}*/
+
 
 
   
