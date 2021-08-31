@@ -1,0 +1,143 @@
+
+
+html {
+    box-sizing: border-box;
+    font-size: 112.5%;
+    line-height: 1.5%;
+}
+.heading{
+    text-align: left;
+}
+.heading1{
+    text-align: right;
+}
+
+
+ 
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font: 20px/1.5 Arail Helvetica, sans-serif;
+    color:  #3a343a;;
+
+}
+.requirements{
+    background:  #ededee;
+    color: #3a343a;
+    width: 80%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+.experience-sec{
+    text-align: left;
+    width: 40%;
+}
+.started-sec{
+    text-align: right;
+    width: 40%;  
+}
+.parent{
+    display: flex;
+    justify-content: center;
+}
+.child{
+    float: left;
+    width: 45%;
+    margin: 20px;
+}
+*{
+    box-sizing: border-box;
+    justify-content: center;
+}
+#childa{
+    width: 30%;
+}
+#childb{
+    width: 30%;
+}
+ h2{
+    color: #3a343a;
+    font-size: 30px;
+}
+
+/*our team section*/
+
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #fafafa;
+}
+
+.wrapper{
+  margin-top: 10%;
+}
+
+.wrapper h1{
+  font-family: 'Allura', cursive;
+  font-size: 52px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.team{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.team .team_member{
+  background:  #e2e6e7;
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  color: #8e8b8b;  
+  position: relative;
+}
+
+.team .team_member h3{
+  color: #32A0C2 ;
+  font-size: 26px;
+  margin-top: 50px;
+}
+
+.team .team_member p.role{
+  color: #ccc;
+  margin: 12px 0;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.team .team_member .team_img{
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.team .team_member .team_img img{
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}
+
+
