@@ -599,84 +599,216 @@ footer{
 
 
 
+/*flex box section*/
 
-  .basesection{
-    background-color: rgb(70, 112, 70);
+.Testimonials-wrapper-heading {
+  text-align: center;
+ padding-bottom: 2%;
+
+
+ color:  #3a343a;
+ display: block;
+ font-weight: bold;
+
+ font-size: 2rem;
+ text-rendering: optimizelegibility;
+ font-weight: 700;
+ margin: 0;
+}
+.Testimonials-wrapper{
+    background-color: #fafafa;
+    padding-bottom: 80px;
+    padding-top: 30px;
     
   }
+.flexbox-container p{
+    color: white;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+     font-size: 130%;
+    line-height: 1.5;
+    text-align: center;
+    padding-top: 0px 0px 40px;
+    padding-bottom: 2rem;
+}
 
+figcaption{
+  color: white;
+  padding-left: 20px;
+
+
+}
   .flexbox-container{
     display:flex;
-    flex-direction: row;
-    position: center;
-  
-  
-    
-
+    justify-content: center;
   }
   .flexbox-item{
-    width: 200px;
-    margin: 10px;
-    border: 3px solid #333;
-    background-color: whitesmoke;
+    width: 300px;
+ 
 
   }
   .flexbox-item-1{
     min-height: 300px;
+    background-color: #ededee;
     
   }
   .flexbox-item-2{
     min-height: 200px;
+    background-color:#4D0074;;
  
   }
   .flexbox-item-3{
     min-height: 200px;
+    background-color: #ededee;
+
  
   }
   .flexbox-item-4{
     min-height: 200px;
+    background-color:#4D0074;;
+
  
   }
 
-  #workarea{
-    background-color: teal;
-  }
- 
 
 
-
-
-
-
-
-
-
-
-
-  /*.parent{
-    display: flex;
-    justify-content: center;
-}
-.child{
-    float: left;
-    width: 45%;
-    margin: 20px;
-}
-*{
-    box-sizing: border-box;
-    justify-content: center;
-}
-#childa{
-    width: 30%;
-}
-#childb{
-    width: 30%;
-}
- h2{
+  .text-module_wrapper p{
     color: #3a343a;
-    font-size: 30px;
-}*/
+    text-align: left;
+  }
+blockquote{
+  display: block;
+  position: relative;
+  width: 70%;
+  margin: 3rem auto;
+  padding: .1rem;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  color: #4D0074;
+  font-weight: 700;
+  text-align: left;
+  font-family: Europa,Helvetica Neue,Arial,sans-serif;
+}
+ blockquote::before{
+   content: '\201c';
+   top: 10px;
+   left: -40px;
+ }
+ blockquote::after{
+   content: '\201d';
+   bottom: -10px;
+ }
+ blockquote::before,
+ blockquote::after{
+   font-size: 9rem;
+   position: absolute;
+ }
 
 
 
+
+ 
+
+
+/*faq page */
   
+.faq-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.faq {
+  background-color: transparent;
+  border: 1px solid #9fa4a8;
+  border-radius: 10px;
+  margin: 20px 0;
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s ease;
+}
+
+.faq.active {
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.faq.active::before,
+.faq.active::after {
+  content: '\f075';
+  font-family: 'Font Awesome 5 Free';
+  color: #2ecc71;
+  font-size: 7rem;
+  position: absolute;
+  opacity: 0.2;
+  top: 20px;
+  left: 20px;
+  z-index: 0;
+}
+
+.faq.active::before {
+  color: #3498db;
+  top: -10px;
+  left: -30px;
+  transform: rotateY(180deg);
+}
+
+.faq-title {
+  margin: 0 35px 0 0;
+}
+
+.faq-text {
+  display: none;
+  margin: 30px 0 0;
+}
+
+.faq.active .faq-text {
+  display: block;
+}
+
+.faq-toggle {
+  background-color: transparent;
+  border: 0;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  padding: 0;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  height: 30px;
+  width: 30px;
+}
+
+.faq-toggle:focus {
+  outline: 0;
+}
+
+.faq-toggle .fa-times {
+  display: none;
+}
+
+.faq.active .faq-toggle .fa-times {
+  color: #fff;
+  display: block;
+}
+
+.faq.active .faq-toggle .fa-chevron-down {
+  display: none;
+}
+
+.faq.active .faq-toggle {
+  background-color: #9fa4a8;
+}
+
+
+
+
+
+

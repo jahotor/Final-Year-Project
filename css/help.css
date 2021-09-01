@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap')
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
-* {
-  box-sizing: border-box;
-}
+
 
 body {
   font-family: 'Muli', sans-serif;
@@ -104,4 +102,13 @@ h1 {
 
 .faq.active .faq-toggle {
   background-color: #9fa4a8;
+}
+
+/*lab manual*/
+.labmanual{
+  display: flex;
+  justify-content: center;
+}
+.concentration{
+  padding-bottom: 150px;
 }

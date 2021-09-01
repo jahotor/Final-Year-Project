@@ -105,14 +105,54 @@ li.dropdown {
     padding-bottom: 20px;
 }
 .pictureintro{
-    background: url('../images/scientist-standing-casual.png') no-repeat ;
+    background: url('../images/scientist-standing-casual.png') no-repeat  ;
     background-size: auto;  
     text-align: center;
     color:white;
     padding: 200px 100px;
     background-color:#32A0C2 ;
+    text-align: center;
 
 }
+.events p{
+    width: 40%;
+    text-align: justify;
+    }
+.introtext h1{
+    color:#fafafa;
+    font-weight: bold;
+    font-family: 'Allura', cursive;
+    font-size: 40px;
+    text-align: center;
+    padding-left: 200px;
+
+}
+.introtext p{
+    color:#fafafa;
+    font-family: 'Allura', cursive;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 20%;
+    width: 80%;
+
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*practical area*/
 .row{
     display: flex;
@@ -180,4 +220,6 @@ footer{
     color: white;
 
 }    */
+
+
 
